@@ -10,11 +10,13 @@ body{
 
 #navbar ul li a{
     font-size: 1rem;
-    padding: 0px 7px;
-    padding-bottom: 8px;
+    padding: 0px 10px;
+    padding-bottom: 5px;
 }
 
 #navbar #logo{
+    width: 50px;
+    height: 50px;
     margin: 10px 0px;
 }
 /* Home Section */
@@ -25,7 +27,7 @@ body{
 }
 
 #home::before{
-    height: 565px; 
+    height: 585px; 
 }
 
 #home p{
@@ -92,4 +94,12 @@ body{
     border: 2px solid white;
     font-size: 1rem;
     border-radius: 8px;
+}
+
+.my-margin{
+    margin: 0px 0px;
+}
+
+.my-padding{
+    padding-top: 95px;
 }

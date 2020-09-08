@@ -4,8 +4,12 @@
     font-family: 'Caveat Brush', cursive;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    padding: 70px 110px;
+    /* padding: 70px 110px; */
     background-color: rgb(209, 236, 156);
     z-index: 2;
 }
@@ -14,6 +18,7 @@ body{
     align-items: center;
     position: sticky;
     top: 0px;
+    margin-bottom: 0px;
     z-index: 5;
 }
 
@@ -71,7 +76,8 @@ body{
 #home{
     display: flex;
     flex-direction: column;
-    padding: 4px 220px;
+    margin-top: 0px;
+    padding-top: 60px;
     height: 368px;
     align-items: center;
     justify-content: center;
@@ -79,7 +85,7 @@ body{
 
 #home::before{
     content: "";
-    height: 505px;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0px;
@@ -267,7 +273,13 @@ footer{
     text-align: center;
 }
 
+.my-margin{
+    margin: 70px 110px;
+}
 
+.my-padding{
+    padding-top: 100px;
+}
 
 
 
