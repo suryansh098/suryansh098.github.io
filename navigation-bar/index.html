@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Responsive Menu Bar</title>
+</head>
+<body>
+    <nav>
+        <div class="toggle">
+            <div class="menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.menu').click(function() {
+                $('ul').toggleClass('active');
+            })
+        })
+    </script>
+</body>
+</html>
