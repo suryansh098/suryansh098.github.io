@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(3, 41, 11), rgb(1, 1, 46));
+}
+.container {
+    border: 4px solid rgb(245, 17, 55);
+    border-radius: 23px;
+    padding: 34px;
+}
+
+.container:hover {
+    border-color: rgb(83, 199, 245);
+}
+
+h3 {
+    position: relative;
+    font-size: 23px;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#form {
+    position: relative;
+}
+
+#form #email {
+    width: 350px;
+    background: #292929;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-style: 18px;
+}
+
+#form .inputBox {
+    position: relative;
+}
+
+#form.valid .inputBox::before {
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    background: url('valid.png');
+    background-size: cover;
+    z-index: 1000;
+}
+
+#form.invalid .inputBox::before {
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    background: url('invalid.png');
+    background-size: cover;
+    z-index: 1000;
+}
+
+#text {
+    display: block;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+}
