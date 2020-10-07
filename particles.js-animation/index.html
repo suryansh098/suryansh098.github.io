@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particles Animation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, rgb(4, 32, 4), rgb(4, 4, 46));
+        }
+        #particles-js {
+            height: 70%;
+            width: 70%;
+            background: linear-gradient(45deg, purple,#e400ff);
+            box-shadow: 10px 10px 10px purple, -10px -10px 10px purple;
+            border-radius: 35px;
+        }
+        #text {
+            display: block;
+            position: absolute;
+            top: 45%;
+            right: 42%;
+            color: white;
+            font-size: 34px;
+            text-shadow: 2px 2px 2px black;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div id="text">Suryansh Yadav</div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
