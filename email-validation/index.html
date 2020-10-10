@@ -4,46 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Email Validation</title>
 </head>
 <body>
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="profile.jpg" alt="profile" height="45" width="45" style="border-radius: 50%; margin-right: 5px;">
+                Suryansh
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.facebook.com/suryansh.yadav.731">Facebook</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.instagram.com/suryansh098/">Instagram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://twitter.com/suryansh098">Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/suryansh098/">LinkedIn</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.github.com/suryansh098/">Github</a>
+                    </li>                   
+                </ul>
+            </div>
+    </nav>
+
+    <div class="email-container">
         <h3>Email Validation Check</h3>
         <form action="#" id="form">
             <div class="inputBox">
-                <input type="email" name="" id="email" placeholder="Enter Email Address" onkeydown="validation()">
+                <input type="email" name="" id="email" placeholder="Enter Email Address" onkeydown="validation()" value="">
                 <span id="text"></span>
             </div>
         </form>
     </div>
-    <script type="text/javascript">
-        function validation() {
-            var form = document.getElementById("form");
-            var email = document.getElementById("email").value;
-            var text = document.getElementById("text");
-            var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-
-            if (email.match(pattern)) 
-            {
-                form.classList.add("valid");
-                form.classList.remove("invalid");
-                text.innerHTML = "Your Email Address is valid!";
-                text.style.color = "#00ff00";
-            }
-            else if (email == "")
-            {
-                text.innerHTML = "";
-                form.classList.remove("valid");
-                form.classList.remove("invalid");
-            }
-            else
-            {
-                form.classList.remove("valid");
-                form.classList.add("invalid");
-                text.innerHTML = "Please enter a valid email address!";
-                text.style.color = "#ff0000";
-            }
-        }
-    </script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

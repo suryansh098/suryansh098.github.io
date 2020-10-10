@@ -7,23 +7,36 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
+    min-width: 100vw;
     background: linear-gradient(45deg, rgb(3, 41, 11), rgb(1, 1, 46));
 }
-.container {
+.email-container {
     border: 4px solid rgb(245, 17, 55);
     border-radius: 23px;
-    padding: 34px;
+    padding: 30px;
+    display: block;
+    width: 32%;
+    margin: 10% auto;
 }
 
-.container:hover {
+@media only screen and (max-width: 1120px) {
+    .email-container {
+      width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .email-container {
+        width: 90%;
+    }
+}
+
+.email-container:hover {
     border-color: rgb(83, 199, 245);
 }
 
-h3 {
+.email-container h3 {
     position: relative;
     font-size: 23px;
     color: #f9f9f9;
@@ -33,26 +46,28 @@ h3 {
     text-align: center;
 }
 
-#form {
+.email-container #form {
     position: relative;
 }
 
-#form #email {
-    width: 350px;
+.email-container #form #email {
+    width: 100%;
     background: #292929;
     outline: none;
     border: none;
     padding: 10px;
     border-radius: 8px;
     color: #fff;
-    font-style: 18px;
+    font-size: 18px;
+    display: block;
+    margin: auto;
 }
 
-#form .inputBox {
+.email-container #form .inputBox {
     position: relative;
 }
 
-#form.valid .inputBox::before {
+.email-container #form.valid .inputBox::before {
     content: "";
     position: absolute;
     right: 12px;
@@ -64,7 +79,7 @@ h3 {
     z-index: 1000;
 }
 
-#form.invalid .inputBox::before {
+.email-container #form.invalid .inputBox::before {
     content: "";
     position: absolute;
     right: 12px;
@@ -76,7 +91,7 @@ h3 {
     z-index: 1000;
 }
 
-#text {
+.email-container #text {
     display: block;
     font-weight: 300;
     font-style: italic;
