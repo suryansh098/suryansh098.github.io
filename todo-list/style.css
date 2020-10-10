@@ -28,6 +28,10 @@ h1 {
     border-bottom: 2px solid black;
 }
 
+p {
+    text-align: center;
+}
+
 .btn {
     padding: 5px 10px;
     margin: 12px auto;
