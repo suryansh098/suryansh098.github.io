@@ -1,5 +1,4 @@
 ## Web Development Projects
-<br/>
 
 ### [Khana-Wana][khana-wana]
 ### [Animated Clock][animated-clock]
