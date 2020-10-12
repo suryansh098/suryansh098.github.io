@@ -1,19 +1,18 @@
 ## suryansh098.github.io
 ## Web Development Projects
 <br/>
-<br/>
 
-[Khana-Wana][https://suryansh098.github.io/Khana-Wana]
-[Animated Clock][https://suryansh098.github.io/animated-clock]
-[Background Generator][https://suryansh098.github.io/bg-generator]
-[Email Validation][https://suryansh098.github.io/bg-generator]
-[Loading Animation][https://suryansh098.github.io/loading-animation]
-[Social Media Logo Animation][https://suryansh098.github.io/logo-animation]
-[Navigation Bar using Bootstrap][https://suryansh098.github.io/navigation-bar-2]
-[Responsive Navigation Bar CSS][https://suryansh098.github.io/navigation-bar]
-[Newsletter Form Design][https://suryansh098.github.io/newsletter-form]
-[Paticles.js Animation][https://suryansh098.github.io/particles.js-animation]
-[TODO List using Javascript][https://suryansh098.github.io/todo-list]
+# [Khana-Wana][https://suryansh098.github.io/Khana-Wana]
+# [Animated Clock][https://suryansh098.github.io/animated-clock]
+# [Background Generator][https://suryansh098.github.io/bg-generator]
+# [Email Validation][https://suryansh098.github.io/bg-generator]
+# [Loading Animation][https://suryansh098.github.io/loading-animation]
+# [Social Media Logo Animation][https://suryansh098.github.io/logo-animation]
+# [Navigation Bar using Bootstrap][https://suryansh098.github.io/navigation-bar-2]
+# [Responsive Navigation Bar CSS][https://suryansh098.github.io/navigation-bar]
+# [Newsletter Form Design][https://suryansh098.github.io/newsletter-form]
+# [Paticles.js Animation][https://suryansh098.github.io/particles.js-animation]
+# [TODO List using Javascript][https://suryansh098.github.io/todo-list]
 
 ---
 
