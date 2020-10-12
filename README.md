@@ -33,8 +33,8 @@
 [email-validation]:https://suryansh098.github.io/email-validation
 [loading-animation]:https://suryansh098.github.io/loading-animation
 [logo-animation]:https://suryansh098.github.io/logo-animation
-[navigation-bar-2]:https://suryansh098.github.io/
-[navigation-bar]:https://suryansh098.github.io/
-[newsletter-form]:https://suryansh098.github.io/
-[particles.js-animation]:https://suryansh098.github.io/
-[todo-list]:https://suryansh098.github.io/
+[navigation-bar-2]:https://suryansh098.github.io/navigation-bar-2
+[navigation-bar]:https://suryansh098.github.io/navigation-bar
+[newsletter-form]:https://suryansh098.github.io/newsletter-form
+[particles.js-animation]:https://suryansh098.github.io/particles.js-animation
+[todo-list]:https://suryansh098.github.io/todo-list
