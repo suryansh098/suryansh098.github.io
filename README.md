@@ -1,17 +1,17 @@
 ## Web Development Projects
 <br/>
 
-- ### [Khana-Wana][khana-wana]
-- ### [Animated Clock][animated-clock]
-- ### [Background Generator][bg-generator]
-- ### [Email Validation][email-validation]
-- ### [Loading Animation][loading-animation]
-- ### [Social Media Logo Animation][logo-animation]
-- ### [Navigation Bar using Bootstrap][navigation-bar-2]
-- ### [Responsive Navigation Bar CSS][navigation-bar]
-- ### [Newsletter Form Design][newsletter-form]
-- ### [Paticles.js Animation][particles.js-animation]
-- ### [TODO List using Javascript][todo-list]
+### [Khana-Wana][khana-wana]
+### [Animated Clock][animated-clock]
+### [Background Generator][bg-generator]
+### [Email Validation][email-validation]
+### [Loading Animation][loading-animation]
+### [Social Media Logo Animation][logo-animation]
+### [Navigation Bar using Bootstrap][navigation-bar-2]
+### [Responsive Navigation Bar CSS][navigation-bar]
+### [Newsletter Form Design][newsletter-form]
+### [Paticles.js Animation][particles.js-animation]
+### [TODO List using Javascript][todo-list]
 
 ---
 
