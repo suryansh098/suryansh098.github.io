@@ -8,6 +8,7 @@
 ### [Social Media Logo Animation][logo-animation]
 ### [Navigation Bar using Bootstrap][navigation-bar-2]
 ### [Responsive Navigation Bar CSS][navigation-bar]
+### [Responsive Navigation Bar CSS-2][navigation-bar-3]
 ### [Newsletter Form Design][newsletter-form]
 ### [Paticles.js Animation][particles.js-animation]
 ### [TODO List using Javascript][todo-list]
@@ -35,6 +36,7 @@
 [logo-animation]:https://suryansh098.github.io/logo-animation
 [navigation-bar-2]:https://suryansh098.github.io/navigation-bar-2
 [navigation-bar]:https://suryansh098.github.io/navigation-bar
+[navigation-bar-3]:https://suryansh098.github.io/navigation-bar-3
 [newsletter-form]:https://suryansh098.github.io/newsletter-form
 [particles.js-animation]:https://suryansh098.github.io/particles.js-animation
 [todo-list]:https://suryansh098.github.io/todo-list
