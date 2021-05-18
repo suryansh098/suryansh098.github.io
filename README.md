@@ -17,6 +17,8 @@ This repository consists of simple web components designs and full website desig
 - [PaticlesJs Animation]
 - [Todo List Using Javascript]
 - [Javascript Typewriter Animation]
+- [CSS Dropdown Menu]
+- [CSS Dark Mode Switch]
 
 #### Contact :
 [<img align="left" alt="suryansh098 | Twitter" width="22px" src="https://image.flaticon.com/icons/svg/733/733579.svg" />][twitter]
@@ -37,6 +39,8 @@ This repository consists of simple web components designs and full website desig
 [PaticlesJs Animation]:https://suryansh098.github.io/particles.js-animation
 [Todo List Using Javascript]:https://suryansh098.github.io/todo-list
 [Javascript Typewriter Animation]:https://suryansh098.github.io/javascript-typewriter-effect
+[CSS Dropdown Menu]:https://suryansh098.github.io/dropdown-in-navigation/
+[CSS Dark Mode Switch]:https://suryansh098.github.io/dark-mode-switch/
 
 [twitter]: https://twitter.com/suryansh098
 [instagram]: https://instagram.com/suryansh098
