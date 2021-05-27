@@ -19,6 +19,7 @@ This repository consists of simple web components designs and full website desig
 - [Javascript Typewriter Animation]
 - [CSS Dropdown Menu]
 - [CSS Dark Mode Switch]
+- [Flexible Sidebar]
 
 #### Contact :
 [<img align="left" alt="suryansh098 | Twitter" width="22px" src="https://image.flaticon.com/icons/svg/733/733579.svg" />][twitter]
@@ -41,6 +42,7 @@ This repository consists of simple web components designs and full website desig
 [Javascript Typewriter Animation]:https://suryansh098.github.io/javascript-typewriter-effect
 [CSS Dropdown Menu]:https://suryansh098.github.io/dropdown-in-navigation/
 [CSS Dark Mode Switch]:https://suryansh098.github.io/dark-mode-switch/
+[Flexible Sidebar]:https://suryansh098.github.io/flexible-sidebar/
 
 [twitter]: https://twitter.com/suryansh098
 [instagram]: https://instagram.com/suryansh098
