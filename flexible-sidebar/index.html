@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexible Sidebar</title>
+    <script src="https://kit.fontawesome.com/7d5b590247.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div>Home</div>
+        <div>Services</div>
+        <div>About</div>
+        <div>Contact</div>
+    </div>
+
+    <div class="main">
+        <div class="page">
+            <div class="hamburger" onclick="toggle();">
+                <i class="fas fa-bars"></i>
+                <h1>Sidebar</h1>
+            </div>
+            <div class="content">
+                <h2>Some Heading</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ullam neque incidunt. A maxime maiores facilis delectus dolorem possimus! At hic enim dolorem facilis quia laborum odio incidunt ullam, reprehenderit unde saepe modi libero minima voluptate explicabo facere quas atque. Illo nam ad quis repudiandae, nihil tenetur odio ratione magnam?</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggle() {
+            const sidebar = document.querySelector(".sidebar");
+            const main = document.querySelector(".main");
+            sidebar.classList.toggle("active");
+            main.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

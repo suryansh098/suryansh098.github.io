@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: system-ui, -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+      "Ubuntu", "Helvetica Neue", sans-serif;
+    background-color: #e8edf3;
+}
+
+.sidebar {
+    background-color: #fff;
+    position: absolute;
+    height: 100vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transform: translateX(-100%);
+    transition: transform 560ms;
+}
+
+.sidebar.active {
+    transform: translateX(0%);
+}
+
+.sidebar > div {
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 140ms;
+}
+.sidebar > div:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    width: 100%;
+    min-height: 100vh;
+    transition: padding-left 560ms;
+}
+
+.main.active {
+    padding-left: 300px;
+}
+
+.page {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburger i {
+    font-size: 30px;
+}
+
+.hamburger h1 {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.content {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    flex-grow: 1;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.content h2 {
+    margin: 10px 0;
+}
