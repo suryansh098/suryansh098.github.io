@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: #212e3a;
+}
+
+/* Navbar  Styling*/
+.navbar {
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15202B;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Logo Styling */
+.navbar .logo {
+    margin-left: 50px;
+}
+.navbar .logo h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    color: orange;
+    cursor: pointer;
+}
+.navbar .logo h1 span {
+    font-family: inherit;
+    color: orangered;
+}
+.navbar .logo h1:hover {
+    animation: animateLogo 5s linear infinite;
+}
+@keyframes animateLogo {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+/* Menu Styling */
+.navbar .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.navbar .menu ul li,
+.navbar .list .cart {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 12px;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+a:hover, a.active{
+    color: crimson;
+}
+.menu-item {
+    transition: transform 0.3s ease;
+}
+a:hover .menu-item{
+    transform: scale(1.15);
+}
+
+.navbar .menu-btn {
+    display: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 12px;
+    cursor: pointer;
+    margin-left: 23px;
+    transition: all 0.3s ease;
+}
+
+/* menu-btn */
+@media (max-width: 767px) {
+    .navbar .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i {
+        transition: all 0.5s ease;
+    }
+    .navbar .menu-btn i.active:before {
+        content: "\f00d";;
+    }
+    .navbar .logo {
+        margin-left: 0;
+    }
+    .navbar .list {
+        margin-right: 23px;
+    }
+    .navbar .menu {
+        position: fixed;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        left: -100%;
+        top: 0;
+        background-color: #15202B;
+        text-align: center;
+        padding-top: 80px;
+        transition: all .5s ease-in-out;
+    }
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu ul li {
+        display: block;
+    }
+    .navbar .menu ul li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;;
+    }
+}
