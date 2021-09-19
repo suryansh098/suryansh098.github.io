@@ -21,6 +21,9 @@ This repository consists of simple web components designs and full website desig
 - [CSS Dark Mode Switch]
 - [Flexible Sidebar]
 - [Customized Navigation]
+- [First 3D Animation]
+- [Flexbox Challenge]
+- [Lazy Loading]
 
 #### Contact :
 [<img align="left" alt="suryansh098 | Twitter" width="22px" src="https://image.flaticon.com/icons/svg/733/733579.svg" />][twitter]
@@ -45,6 +48,9 @@ This repository consists of simple web components designs and full website desig
 [CSS Dark Mode Switch]:https://suryansh098.github.io/dark-mode-switch/
 [Flexible Sidebar]:https://suryansh098.github.io/flexible-sidebar/
 [Customized Navigation]:https://suryansh098.github.io/customized-navigation/
+[First 3D Animation]:https://suryansh098.github.io/jumping-ball-animation/
+[Flexbox Challenge]:https://suryansh098.github.io/flexbox-challenge/
+[Lazy Loading]:https://suryansh098.github.io/lazy-loading/
 
 [twitter]: https://twitter.com/suryansh098
 [instagram]: https://instagram.com/suryansh098
