@@ -1,0 +1,49 @@
+:root {
+  --clr-primary: olive;
+  --clr-neutral: gray;
+
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-accent: 'Playfair Display', serif;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+}
+
+.container {
+  margin: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--clr-primary);
+  font-family: var(--ff-accent);
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+p {
+  color: var(--clr-neutral);
+  font-family: var(--ff-primary);
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+img {
+  display: block;
+  align-self: center;
+  max-width: 35em;
+  height: 100%;
+  padding-bottom: 1.5em;
+}
